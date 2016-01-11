@@ -34,11 +34,10 @@ The source code and necessary data files may all be downloaded as a zip, forked,
 
 The primary Python script included is **HessCMD.py** The files included are:
 
-- **HessCMD_withoptions.png**: Example output plot of
-- **HessCMD.py**: 
-- **HessCMD.pyc**: 
-- **HessExample.py**: 
-- **photometry.txt**: 
+- **HessCMD_withoptions.png**: Example output plot of code run
+- **HessCMD.py**: Python code defining plotHess() function
+- **HessExample.py**: Example code to run/edit for user's own implementation
+- **photometry.txt**: File containing data to be used in example code
 
 
 If the user has Python and the necessary packages installed, no further installation should be required to run the code. If scripted, code may be run from outside Python with the command-line call 'python example.py' (where example is the name of the script). If inside Python, the function HessCMD() may be called following importing the necessary packages and:
