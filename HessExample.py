@@ -19,5 +19,5 @@ color=mag1-mag2  # F606W - F814W (~(V-I) color)
 
 #### run plotHess() on magnitude and color:
 # utilize options to: define levels, save as a particular file, include a colorbar, set labels, etc.
-HessCMD.plotHess(mag2, color, levels=arange(25,225,25), cbarrtitle='Density', xlabel='F606W $-$ F814W (mag)', ylabel='F814W (mag)', saveas='HessCMD_withoptions.png', cbarr='Yes')
+HessCMD.plotHess(mag2, color, levels=arange(25,225,25), cbarrtitle='Density', xlab='F606W $-$ F814W (mag)', ylab='F814W (mag)', saveas='HessCMD_withoptions.png', cbarr='Yes')
 
