@@ -11,7 +11,7 @@ matplotlib.rc('font',family='Bitstream Vera Serif')
 
 
 
-def plotHess(mag, color, levels='None', xlims=[-1,3], ylims=[28,20], colormap=cm.gray_r cbarr='None', cbarrtitle='', xlabel='', ylabel='', saveas='HessCMD.png'):
+def plotHess(mag, color, levels='None', xlims=[-1,3], ylims=[28,20], colormap=cm.gray_r, cbarr='None', cbarrtitle='', xlabel='', ylabel='', saveas='HessCMD.png'):
     """
     plotHess(mag,color) is a function intended to create a contour plot of stellar density in the canonical Color-Magnitude Diagram (CMD). plotHess() plots all the stars in the CMD and then overplots a contour of their density.
 
