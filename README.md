@@ -6,6 +6,7 @@ Hess
 <br />
 
 <h4>Table of Contents</h4>
+
 [Summary](#Summary)<br />
 [Downloading and Installation](#Install)<br />
 [Example of Use](#Use)<br />
@@ -79,8 +80,7 @@ Other options are also available; full documentation is given in the function de
 <a name="Docs"/>
 <h4>Documentation</h4>
 
-
-#####plotHess()#####
+<h5>plotHess()</h5>
 
 This is a function that will take arrays of color and magnitude from stellar photometry and create a Hess diagram.
 
@@ -93,18 +93,16 @@ mag and color are required to run plotHess() and need to be the same length arra
 
 Optional keyword arguments:
 
-=========   =======================================================
-Keyword     Description
-=========   =======================================================
-levels:    levels to be used for density contour; if 'None', the defaults are defined by the contour() function, which may not be optimal for the users dataset and may be changed if necessary.
-ylims:      define the y-range of the plotted values; defaults will need to be changed to fit user's data.
-xlims:      define the x-range of the plotted values; defaults will need to be changed to fit user's data.
-colormap:   allows the user to choose a Python color map to use for the contour; the default is grayscale.
-cbarr:      'None' means the colorbar will not be plot as a default. To change this, set cbarr='Yes'; in a true Hess diagram, the cbarr values represent the stellar point density in the CMD plot.
-cbarrtitle: sets the title for the colorbar; should be string
-xlabel:     sets the xlabel for the plot; should be string
-ylabel:     sets the ylabel for the plot; should be string
-saveas:     pathway for saving the output plot. The default is to save in the same folder as "HessCMD.png"
+**Keyword** &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Description**<br />
+*levels*: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; levels to be used for density contour; if 'None', the defaults are defined by the contour() function, which may not be optimal for the users dataset and may be changed if necessary.<br />
+*ylims*: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; define the y-range of the plotted values; defaults will need to be changed to fit user's data.<br />
+*xlims*: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; define the x-range of the plotted values; defaults will need to be changed to fit user's data.<br />
+*colormap*: &nbsp; &nbsp; allows the user to choose a Python color map to use for the contour; the default is grayscale.<br />
+*cbarr*: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 'None' means the colorbar will not be plot as a default. To change this, set cbarr='Yes'; in a true Hess diagram, the cbarr values represent the stellar point density in the CMD plot.<br />
+*cbarrtitle*:  sets the title for the colorbar; should be string<br />
+*xlabel*: &nbsp; &nbsp; &nbsp; &nbsp; sets the xlabel for the plot; should be string<br />
+*ylabel*: &nbsp; &nbsp; &nbsp; &nbsp; sets the ylabel for the plot; should be string<br />
+*saveas*: &nbsp; &nbsp; &nbsp; &nbsp; pathway for saving the output plot. The default is to save in the same folder as "HessCMD.png"<br />
 
 <br /> <br /><br />
 
